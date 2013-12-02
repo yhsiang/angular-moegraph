@@ -13,15 +13,23 @@ http://embed.plnkr.co/loRyofbu6nZKmPaGXTyE/preview
 ```
 and
 ```
+<style>
+.moegraph { ... }
+</style>
+```
+```
 angular.module('YourApp', ['ngMoegraph'])
 ```
 * mockup your element 
 ```
-<div ng-moegraph="moetext"> ... </div>
+<div ng-moegraph="moetext" font="moefont"> ... </div>
 ```
 * working with your scope in controller
 ```
 $scope.moetext = "blah .."
+
+// support font -> ["kai", "ebas", "sung"]
+$scope.moefont = "kai";
 ```
 
 #License
