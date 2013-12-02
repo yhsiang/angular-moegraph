@@ -28,7 +28,7 @@ angular.module('YourApp', ['ngMoegraph'])
 ```
 $scope.moetext = "blah .."
 ```
-support font -> ["kai", "ebas", "sung"]
+* support font -> ["kai", "ebas", "sung"]
 ```
 $scope.moefont = "kai";
 ```
