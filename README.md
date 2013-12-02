@@ -11,6 +11,10 @@ http://embed.plnkr.co/loRyofbu6nZKmPaGXTyE/preview
 ```
 <script type="text/javascript" src="angular-moegraph.js"></script>
 ```
+and
+```
+angular.module('YourApp', ['ngMoegraph'])
+```
 * mockup your element 
 ```
 <div ng-moegraph="moetext"> ... </div>
@@ -20,3 +24,6 @@ http://embed.plnkr.co/loRyofbu6nZKmPaGXTyE/preview
 $scope.moetext = "blah .."
 ```
 
+#License
+
+MIT
