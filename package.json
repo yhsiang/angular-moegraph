@@ -11,7 +11,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "./node_modules/.bin/lsc -o build -c src/angular-moegraph.ls"
+    "build": "./node_modules/.bin/lsc -o build -c src/angular-moegraph.ls",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

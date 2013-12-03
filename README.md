@@ -6,6 +6,10 @@ angular directive for moedict opengraph
 http://embed.plnkr.co/loRyofbu6nZKmPaGXTyE/preview
 
 #Usage
+## method 1 
+* git clone repo and run `npm run build`
+* see example/index.html
+## method 2
 * download angular-moegraph.js
 * include it
 ```
