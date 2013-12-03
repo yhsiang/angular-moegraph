@@ -39,5 +39,4 @@ $scope.moefont = "kai";
 ```
 
 #License
-================
 MIT
